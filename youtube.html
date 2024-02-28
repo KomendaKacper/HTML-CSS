@@ -3,13 +3,63 @@
   <head>
     <title>Youtube.clone</title>
     <style>
-      .thumbnail{
-        
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
+
+      .search-bar {
+        display: block;
+      }
+
+      .video-title {
+        width: 300px;
+      }
+
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
       }
     </style>
   </head>
 
   <body>
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    <div class="video-preview">
+      <input class="search-bar" type="text" placeholder="Search">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+    
+      <p class="video-title">
+        Html Tutorial for everyone!
+      </p>
+  
+      <p class="video-author">
+        John Snow
+      </p>
+   
+      <p class="video-stats">
+        2.5M views &#183; 6 months ago
+      </p>
+
+    </div>
+
+    <div class="video-preview">
+      <input class="search-bar" type="text" placeholder="Search">
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+    
+      <p class="video-title">
+        New patch in Cities Skylines 2!
+      </p>
+  
+      <p class="video-author">
+        Real Civil Engineer
+      </p>
+   
+      <p class="video-stats">
+        256K views &#183; 2 years ago
+      </p>
+
+    </div>
   </body>
 </html>
