@@ -1,4 +1,4 @@
-## YouTube Lookalike
+# YouTube Lookalike
 
 YouTube Lookalike is a project that replicates the appearance of the YouTube interface using HTML and CSS. Inspired by the design of YouTube, this project aims to showcase the skills in front-end development.
 
